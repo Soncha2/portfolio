@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="nav">
+                    <button class="menu-btn" type="button">
+                        <span class="btn-line"></span>
+                        <span class="btn-line"></span>
+                        <span class="btn-line"></span>
+                        <span class="btn-line"></span>
+                    </button>
+                    <ul class="header-menu">
+                        <li class="header-item">
+                            <a href="#" class="header-link"><b>Дом</b></a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#id-about" class="header-link"><b>Обо мне</b></a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#id-skills" class="header-link"><b>Навыки</b></a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#id-portfolio" class="header-link"><b>Портфолио</b></a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#id-contacts" class="header-link"><b>Контакты</b></a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="header-info">
+                    <ul class="header-name">
+                        <li><b>Алексей</b></li>
+                        <li><b>Федоров</b></li>
+                    </ul>
+                    <ul class="header-work">
+                        <li>верстальщик сайтов</li>
+                        <li>Россия</li>
+                    </ul>
+                    <p class="translate">
+                        <a href="#" class="ru translate--active"><b>РУ</b></a>
+                        <b>|</b>
+                        <a href="index_eng.html" class="eng"><b>АНГ</b></a>
+                    </p>
+                </div> 
+                <img class="header-img" src="images/it_is-I.jpg" alt="">              
+            </div>
+        </header>
+        <main class="main">
+            <section id="id-about" class="about">
+                <div class="container">
+                    <p class="about-title"><b>Обо мне</b></p>
+                    <ul class="about-block">
+                        <ul class="about-items">
+                            <li>Привет, я Алексей – верстальщик сайтов из России.</li>
+                            <li>Интересуюсь разработкой сайтов и всем, что с этим связано</li>
+                        </ul>
+                        <ul class="about-items">
+                            <li>Я занимаюсь созданием сайтов.</li>
+                        </ul>
+                        <ul class="about-items">
+                            <li>Готов реализовать отличные проекты</li>
+                            <li>с замечательными людьми.</li>
+                        </ul>
+                    </ul> 
+                </div>
+            </section>
+            <section id="id-skills" class="skills">
+                <div class="container">
+                    <p class="skills-title"><b>Навыки</b></p>
+                    <p class="skills-text">Помимо живой верстки, я также работаю с программами</p>
+                    <div class="skills-block">
+                        <ul class="programs">
+                            <img class="photo" src="images/photo.png" alt="">
+                            <p class="padobe">Adobe</p>
+                            <p class="pphoto">Photoshop</p>
+                        </ul>
+                        <ul class="programs">
+                            <img class="tilda" src="images/tilda_logo.png" alt="">
+                            <p class="ptilda">Tilda</p>
+                        </ul>
+                        <ul class="programs">
+                            <img class="wordpress" src="images/wordpress_logo.png" alt="">
+                            <p class="pwordpress">Wordpress</p>
+                        </ul>
+                        <ul class="programs">
+                            <img class="figma" src="images/figma.png" alt="">
+                            <p class="pfigma">Figma</p>
+                        </ul>                  
+                    </div>                     
+                </div>               
+            </section>
+            <section id="id-portfolio" class="portfolio">
+                <div class="container">
+                    <p class="potfolio-title"><b>Портфолио</b></p>
+                    <img src="images/portfolio_lease-cars.jpg" alt="" class="lease">
+                    <a href="cars/ДЛЯ САШИ-лизинг/index.html" class="show"><b>ПОКАЗАТЬ</b></a>
+                </div>
+            </section>>
+        </main>
+        <footer id="id-contacts" class="footer">
+            <div class="container">
+                <p class="contacts-title"><b>Контакты</b></p>
+                <p class="contacts-text">Хотите узнать больше или просто поболтать?
+                    Пожалуйста!</p>
+                <div class="contacts-block">
+                    <ul class="contacts-item">
+                        <p> <img class="tel" src="images/tel.png" alt="">&nbsp;&nbsp;&nbsp;<b>Телефон:</b></p>
+                        <a href="tel:79966437192" class="telephone">+7 (996) 643 71 92</a>
+                    </ul>
+                    <ul class="contacts-item">
+                        <p><img class="adress" src="images/adress.png" alt="">&nbsp;&nbsp;&nbsp;<b>Адрес:</b></p>
+                        <p class="padres">Россия, Чебоксары, <br> ул. Энтузиастов, 15-23</p>
+                    </ul>
+                    <ul class="contacts-item">
+                        <p class="item-mail"><img class="mail" src="images/e-mail.png" alt="">&nbsp;&nbsp;&nbsp;<b>E-mail:</b></p>
+                        <p class="e-mail">aleksfedi84@gmail.com</p>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
